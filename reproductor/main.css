@@ -1,0 +1,13 @@
+#reproductor {
+  text-align: center;
+  padding: 20px;
+}
+
+#controles button {
+  margin: 10px;
+  padding: 10px;
+}
+
+#carga {
+  margin-top: 20px;
+}

@@ -1,0 +1,52 @@
+
+/* Estilo para el contenedor de productos */
+#items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Estilo para las tarjetas de los productos */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Estilo para las imágenes de los productos */
+.card img {
+    width: 100%; /* Hace que la imagen ocupe el 100% del ancho de su contenedor */
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra el espacio asignado sin perder su proporción */
+    margin-bottom: 10px;
+}
+
+/* Estilo para los botones */
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: auto; /* Alinea el botón al final de la tarjeta */
+    cursor: pointer;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+
+/* Estilo para el carrito */
+#carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#carrito li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}

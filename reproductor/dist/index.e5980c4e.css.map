@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;AAKA;;;;;AAKA","sources":["main.css"],"sourcesContent":["#reproductor {\r\n  text-align: center;\r\n  padding: 20px;\r\n}\r\n\r\n#controles button {\r\n  margin: 10px;\r\n  padding: 10px;\r\n}\r\n\r\n#carga {\r\n  margin-top: 20px;\r\n}\r\n"],"names":[],"version":3,"file":"index.e5980c4e.css.map","sourceRoot":"/__parcel_source_root/"}
